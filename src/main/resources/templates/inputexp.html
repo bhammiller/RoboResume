@@ -43,7 +43,7 @@
     <span th:if="${#fields.hasErrors('yearsend')}"
           th:errors="*{yearsend}"></span><br />
 
-    Duties :<input type="text" th:field="*{duties}" />
+    Duties :<textarea rows="2" th:field="*{duties}" />
     <span th:if="${#fields.hasErrors('duties')}"
           th:errors="*{duties}"></span><br />
 
